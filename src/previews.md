@@ -6,7 +6,7 @@
 
 ### Demo 2
 - No Preview
-<iframe width="100%" height="400" src="https://jsfiddle.net/FIXME/embedded/result,html,js,css,resources/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="400" src="https://jsfiddle.net/emp9L5Lk/embedded/result,html,js,css,resources/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### Demo 3
 - Preview in textfield
