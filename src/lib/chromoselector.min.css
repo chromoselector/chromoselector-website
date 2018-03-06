@@ -1,0 +1,23 @@
+/*
+ * MIT License
+ * 
+ * Copyright (c) 2013-2018 Rouslan Placella <rouslan@placella.com>
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */.ui-cs-chromoselector{z-index:4000;background:#e4ccc1;background:rgba(228,204,193,.8);border:1px solid #521;border-color:rgba(82,37,18,.5);position:absolute;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.ui-cs-chromoselector .ui-cs-supercontainer{position:relative}.ui-cs-chromoselector .ui-cs-container{float:left}.ui-cs-chromoselector .ui-cs-preview-container{margin:0;padding:10px 10px 0}.ui-cs-chromoselector .ui-cs-preview-widget{margin:0;height:25px;width:100%}.ui-cs-chromoselector .ui-cs-resizer{cursor:se-resize}.ui-cs-icon{z-index:4000;padding:0 .1em;outline:0}.ui-cs-chromoselector .ui-cs-panel{float:left;text-align:center}.ui-cs-chromoselector .ui-cs-panel select{border:1px solid #521;border-color:rgba(82,37,18,.5);margin-top:10px}.ui-cs-chromoselector .ui-cs-panel .ui-panel-labels{width:100%;font-size:12px;font-family:sans,sans-serif,verdana,arial;overflow:hidden;cursor:default}.ui-cs-chromoselector .ui-cs-panel .ui-panel-labels div{float:left;color:#521;padding-bottom:10px;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.ui-cs-chromoselector.ui-cs-static{position:relative;background:0 0;border:0}

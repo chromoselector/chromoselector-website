@@ -1,0 +1,27 @@
+{
+  "name": "chromoselector-website",
+  "version": "2.1.8",
+  "description": "Website for chromoselector",
+  "scripts": {
+    "dist": "rm -rf dist && node node_modules/markdown-folder-to-html/cli.js src && mv _src dist && rm -f dist/template.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chromoselector/chromoselector-website.git"
+  },
+  "keywords": [
+    "color",
+    "picker",
+    "website"
+  ],
+  "author": "Rouslan Placella <rouslan@placella.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chromoselector/chromoselector-website/issues"
+  },
+  "homepage": "https://github.com/chromoselector/chromoselector-website#readme",
+  "devDependencies": {
+    "markdown-folder-to-html": "^1.5.2"
+  }
+}
