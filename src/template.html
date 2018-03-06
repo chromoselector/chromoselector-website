@@ -5,33 +5,83 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
   <style type="text/css">
-  .markdown-body {
+  * {
     box-sizing: border-box;
-    min-width: 200px;
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 45px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
   }
   iframe {
     border: 1px solid #ddd;
   }
-  @media (max-width: 767px) {
-    .markdown-body {
-      padding: 15px;
+  nav {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 25%;
+    text-transform: uppercase;
+    background: #eee;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 1px solid #ccc;
+    font-family: sans-serif;
+    color: gray;
+  }
+  nav ul li a {
+    color: gray;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 0.8em;
+  }
+  article {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 75%;
+  }
+  .markdown-body {
+    padding: 2em;
+  }
+  @media only screen and (max-width: 768px) {
+    nav {
+      position: relative;
+      width: 100%;
+    }
+    article {
+      position: relative;
+      width: 100%;
     }
   }
   </style>
 </head>
 <body>
-  <nav class="markdown-body">
-    <h1>Chromoselector demos</h1>
-    <p>
-      For documentation, source code and downloads go to <a href="https://github.com/chromoselector/chromoselector/">https://github.com/chromoselector/chromoselector/</a>.
-    </p>
+  <nav>
+  <ul>
+    <li>
+      <div>Menu</div>
+    </li>
+  </ul>
     <!--NAV-->
   </nav>
-  <article class="markdown-body">
-    <!--CONTENT-->
+  <article>
+    <div class="markdown-body">
+      <h1>Chromoselector demos</h1>
+      <p>
+        For documentation, source code and downloads go to
+        <a href="https://github.com/chromoselector/chromoselector/">
+          https://github.com/chromoselector/chromoselector/
+        </a>.
+      </p>
+      <!--CONTENT-->
+    </div>
   </article>
 </body>
 </html>
